@@ -1,3 +1,3 @@
-# CodeExplore-demo
-This is first Git Repository.
+# 
+This is Responsive Landing Page.
 <br>

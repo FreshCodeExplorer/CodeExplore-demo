@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive landing page</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container nav">
+      <a href="#" class="logo">Explore</a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+      <nav class="nav-menu">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#footer" class="nav-link">Contact</a>
+      </nav>
+    </div>
+
+    <div class="hero fade-in">
+      <h1>Empower Your Workflow</h1>
+      <p>Smart tools for startups to launch faster and grow smarter.</p>
+      <a href="#features" class="btn-primary">Get Started</a>
+    </div>
+  </header>
+
+  <!-- FEATURES -->
+  <section id="features" class="features container">
+    <h2 class="section-title reveal">Feature Highlights</h2>
+    <div class="feature-grid">
+      <div class="feature-card reveal">
+        <div class="icon">⚡</div>
+        <h3>Fast Setup</h3>
+        <p>Launch your project in minutes with streamlined onboarding.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="icon">🔒</div>
+        <h3>Secure</h3>
+        <p>Top-notch security to keep your data and users safe.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="icon">📈</div>
+        <h3>Scalable</h3>
+        <p>Infrastructure designed to grow as your business expands.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2 class="section-title reveal">What Our Users Say</h2>
+      <div class="testimonial-list">
+        <article class="testimonial reveal">
+          <p>“NovaStart transformed how we manage projects—fast and reliable!”</p>
+          <h4>Alex P. • Founder</h4>
+        </article>
+        <article class="testimonial reveal">
+          <p>“The responsive design makes it perfect for our mobile-first team.”</p>
+          <h4>Maria L. • Product Manager</h4>
+        </article>
+        <article class="testimonial reveal">
+          <p>“Excellent support and easy integration with our existing tools.”</p>
+          <h4>Jordan K. • CTO</h4>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer" class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2025 Komol. All rights reserved.</p>
+      <div class="social">
+        <a href="#">Twitter</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
